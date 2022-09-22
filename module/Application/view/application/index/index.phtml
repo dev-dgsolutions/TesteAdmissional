@@ -1,0 +1,35 @@
+<div class="jumbotron">
+    <h1>Bem vindo ao <span class="zf-green">AgendaSimples</span></h1>
+    <p>
+        Uma simples agenda onde é necessário implementar a tela de contatos, cada contato deve pertencer a um grupo,
+        deve ter uma tela para listar os contatos existentes e uma pra adicionar os novos contatos.
+    </p>
+    <p>
+        Nesse projeto ja temos uma conexão com o banco de dados configurada em:<br>
+        <strong>/config/autoload/database.local.php</strong><br>
+        existe nessa mesma pasta um dump da estrutura de dados:<br>
+        <strong>/config/autoload/admissional.sql</strong>,<br>
+    </p>
+    <p>
+        Já existe um módulo <strong>Agenda</strong>, onde já esta implementado o CRUD da tabela grupo, a fim de treinamento
+        deve-se criar o <strong>CRUD</strong> dos contatos lembrando que todo contato deve ter um grupo
+    </p>
+    <p>
+        Segue o modelo ER:<br>
+        <img src="img/db.png">
+    </p>
+
+    <h2>Tarefas a serem avaliadas.</h2>
+    <ol>
+        <li>Criar rotas /config/module.config.php</li>
+        <li>Criar os arquivos de Model para o Contato.</li>
+        <li>Criar as funções de inserção e listagem de contatos na model.</li>
+        <li>Criar Controller/Views para adicionar e listar do contato.</li>
+        <li>Editar o Module.php e autoload_classmap.php para reconhecer as novas models.</li>
+        <li>Criar html com formulário para adicionar contato.</li>
+        <li>Criar html para lista de contatos.</li>
+        <li>Adicionar links para o menu no layout.phtml</li>
+        <li>Desejável implementar validações nos campo e criar uma pesquisa na listagem de contatos</li>
+    </ol>
+
+</div>
